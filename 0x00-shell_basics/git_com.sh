@@ -4,7 +4,7 @@ files_list=$(ls)
 files=0
 for file in $files_list:
 do
-	if [ "$file" != "git_com" ]
+	if [ "$file" != "git_com.sh" ]
 	then
 		files=$((files + 1))
 		git add "$file"
